@@ -268,7 +268,7 @@ h6 {
 }
 
 .hero-logo-image:hover {
-  transform: scale(1.1) rotate(5deg);
+  transform: scale(1.1);
 }
 
 .hero-title {
