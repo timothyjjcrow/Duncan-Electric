@@ -266,11 +266,12 @@ document.addEventListener("DOMContentLoaded", function () {
             position: relative;
             max-width: 90%;
             max-height: 90%;
-            background: white;
+            background: #1e293b;
             border-radius: 12px;
             overflow: hidden;
             transform: scale(0.8);
             transition: transform 0.3s ease;
+            border: 1px solid #334155;
         `;
 
     lightbox.querySelector(".lightbox-close").style.cssText = `

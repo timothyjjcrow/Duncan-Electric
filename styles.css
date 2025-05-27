@@ -12,7 +12,8 @@ html {
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #e5e7eb;
+  background-color: #0f172a;
   overflow-x: hidden;
 }
 
@@ -31,6 +32,7 @@ h5,
 h6 {
   font-weight: 600;
   line-height: 1.2;
+  color: #f8fafc;
 }
 
 /* Buttons */
@@ -98,16 +100,16 @@ h6 {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(15, 23, 42, 0.95);
   backdrop-filter: blur(10px);
   z-index: 1000;
   transition: all 0.3s ease;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(55, 65, 81, 0.3);
 }
 
 .navbar.scrolled {
-  background: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  background: rgba(15, 23, 42, 0.98);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
 
 .nav-container {
@@ -125,7 +127,7 @@ h6 {
   gap: 12px;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #1f2937;
+  color: #f8fafc;
 }
 
 .logo {
@@ -141,7 +143,7 @@ h6 {
 
 .nav-link {
   text-decoration: none;
-  color: #374151;
+  color: #d1d5db;
   font-weight: 500;
   transition: color 0.3s ease;
   position: relative;
@@ -194,7 +196,7 @@ h6 {
 .bar {
   width: 25px;
   height: 3px;
-  background: #374151;
+  background: #d1d5db;
   transition: 0.3s;
   border-radius: 2px;
 }
@@ -206,7 +208,7 @@ h6 {
   display: flex;
   align-items: center;
   position: relative;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
   overflow: hidden;
   padding: 80px 0 40px;
 }
@@ -392,7 +394,7 @@ h6 {
 .section-title {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #1f2937;
+  color: #f8fafc;
   position: relative;
 }
 
@@ -410,7 +412,7 @@ h6 {
 
 .section-subtitle {
   font-size: 1.1rem;
-  color: #6b7280;
+  color: #9ca3af;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -418,7 +420,7 @@ h6 {
 /* About Section */
 .about {
   padding: 6rem 0;
-  background: #f9fafb;
+  background: #1e293b;
 }
 
 .about-content {
@@ -431,12 +433,12 @@ h6 {
 .about-text h3 {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
-  color: #1f2937;
+  color: #f8fafc;
 }
 
 .about-text p {
   margin-bottom: 1.5rem;
-  color: #6b7280;
+  color: #d1d5db;
   line-height: 1.7;
 }
 
@@ -450,10 +452,11 @@ h6 {
 .stat-item {
   text-align: center;
   padding: 1.5rem;
-  background: white;
+  background: #334155;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
+  border: 1px solid #475569;
 }
 
 .stat-item:hover {
@@ -468,14 +471,14 @@ h6 {
 }
 
 .stat-label {
-  color: #6b7280;
+  color: #d1d5db;
   font-size: 0.9rem;
 }
 
 .about-values h3 {
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  color: #1f2937;
+  color: #f8fafc;
 }
 
 .value-item {
@@ -483,10 +486,11 @@ h6 {
   gap: 1rem;
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background: white;
+  background: #334155;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
+  border: 1px solid #475569;
 }
 
 .value-item:hover {
@@ -501,18 +505,18 @@ h6 {
 
 .value-item h4 {
   margin-bottom: 0.5rem;
-  color: #1f2937;
+  color: #f8fafc;
 }
 
 .value-item p {
-  color: #6b7280;
+  color: #d1d5db;
   line-height: 1.6;
 }
 
 /* Services Section */
 .services {
   padding: 6rem 0;
-  background: white;
+  background: #0f172a;
 }
 
 .services-grid {
@@ -522,12 +526,12 @@ h6 {
 }
 
 .service-card {
-  background: white;
+  background: #1e293b;
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #334155;
   position: relative;
   overflow: hidden;
 }
@@ -550,7 +554,7 @@ h6 {
 
 .service-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .service-icon {
@@ -577,7 +581,7 @@ h6 {
 .service-card h3 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  color: #1f2937;
+  color: #f8fafc;
 }
 
 .service-card ul {
@@ -586,7 +590,7 @@ h6 {
 
 .service-card li {
   padding: 0.5rem 0;
-  color: #6b7280;
+  color: #d1d5db;
   position: relative;
   padding-left: 1.5rem;
 }
@@ -602,7 +606,7 @@ h6 {
 /* Gallery Section */
 .gallery {
   padding: 6rem 0;
-  background: #f9fafb;
+  background: #1e293b;
 }
 
 .gallery-grid {
@@ -615,8 +619,9 @@ h6 {
   position: relative;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
+  border: 1px solid #334155;
 }
 
 .gallery-item:hover {
@@ -639,7 +644,7 @@ h6 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
   color: white;
   padding: 2rem;
   transform: translateY(100%);
@@ -653,12 +658,13 @@ h6 {
 .gallery-overlay h4 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
+  color: #f8fafc;
 }
 
 /* Testimonials Section */
 .testimonials {
   padding: 6rem 0;
-  background: white;
+  background: #0f172a;
 }
 
 .testimonials-grid {
@@ -668,11 +674,13 @@ h6 {
 }
 
 .testimonial-card {
-  background: white;
+  background: #1e293b;
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
+  border-left: 4px solid #2563eb;
+  border: 1px solid #334155;
   border-left: 4px solid #2563eb;
 }
 
@@ -694,23 +702,23 @@ h6 {
   font-style: italic;
   line-height: 1.7;
   margin-bottom: 1.5rem;
-  color: #374151;
+  color: #d1d5db;
 }
 
 .testimonial-author strong {
-  color: #1f2937;
+  color: #f8fafc;
   font-weight: 600;
 }
 
 .testimonial-author span {
-  color: #6b7280;
+  color: #9ca3af;
   font-size: 0.9rem;
 }
 
 /* Coverage Section */
 .coverage {
   padding: 6rem 0;
-  background: #f9fafb;
+  background: #1e293b;
 }
 
 .coverage-content {
@@ -731,8 +739,9 @@ h6 {
   max-width: 500px;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
+  border: 1px solid #334155;
 }
 
 .map-container:hover {
@@ -803,7 +812,7 @@ h6 {
 .coverage-areas h3 {
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  color: #1f2937;
+  color: #f8fafc;
 }
 
 .areas-grid {
@@ -818,15 +827,16 @@ h6 {
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem;
-  background: white;
+  background: #334155;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
+  border: 1px solid #475569;
 }
 
 .area-item:hover {
   transform: translateX(5px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .area-item i {
@@ -835,20 +845,21 @@ h6 {
 }
 
 .coverage-note {
-  background: #dbeafe;
+  background: #1e40af;
   padding: 1rem;
   border-radius: 8px;
-  color: #1e40af;
+  color: #dbeafe;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   line-height: 1.5;
+  border: 1px solid #3b82f6;
 }
 
 /* Contact Section */
 .contact {
   padding: 6rem 0;
-  background: white;
+  background: #0f172a;
 }
 
 .contact-content {
@@ -862,9 +873,10 @@ h6 {
   gap: 1rem;
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background: #f9fafb;
+  background: #1e293b;
   border-radius: 12px;
   transition: transform 0.3s ease;
+  border: 1px solid #334155;
 }
 
 .contact-item:hover {
@@ -889,7 +901,7 @@ h6 {
 
 .contact-details h4 {
   margin-bottom: 0.5rem;
-  color: #1f2937;
+  color: #f8fafc;
 }
 
 .contact-details a {
@@ -903,15 +915,16 @@ h6 {
 }
 
 .contact-details p {
-  color: #6b7280;
+  color: #d1d5db;
   line-height: 1.6;
 }
 
 .contact-form {
-  background: #f9fafb;
+  background: #1e293b;
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid #334155;
 }
 
 .form-group {
@@ -923,11 +936,17 @@ h6 {
 .form-group textarea {
   width: 100%;
   padding: 1rem;
-  border: 2px solid #e5e7eb;
+  border: 2px solid #475569;
   border-radius: 8px;
   font-size: 1rem;
   transition: border-color 0.3s ease;
-  background: white;
+  background: #334155;
+  color: #f8fafc;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #9ca3af;
 }
 
 .form-group input:focus,
@@ -945,9 +964,10 @@ h6 {
 
 /* Footer */
 .footer {
-  background: #1f2937;
-  color: white;
+  background: #0f172a;
+  color: #d1d5db;
   padding: 3rem 0 1rem;
+  border-top: 1px solid #334155;
 }
 
 .footer-content {
@@ -964,6 +984,7 @@ h6 {
   margin-bottom: 1rem;
   font-weight: 700;
   font-size: 1.3rem;
+  color: #f8fafc;
 }
 
 .footer-logo img {
@@ -979,7 +1000,7 @@ h6 {
 
 .footer-section h4 {
   margin-bottom: 1rem;
-  color: white;
+  color: #f8fafc;
 }
 
 .footer-section ul {
@@ -1026,6 +1047,7 @@ h6 {
   align-items: center;
   gap: 0.5rem;
   margin-bottom: 0.5rem;
+  color: #d1d5db;
 }
 
 .footer-bottom {
@@ -1096,12 +1118,13 @@ h6 {
     left: -100%;
     top: 70px;
     flex-direction: column;
-    background-color: white;
+    background-color: #1e293b;
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.3);
     padding: 2rem 0;
+    border-top: 1px solid #334155;
   }
 
   .nav-menu.active {
@@ -1111,6 +1134,7 @@ h6 {
   .nav-menu a {
     padding: 1rem;
     display: block;
+    color: #d1d5db;
   }
 
   .hamburger.active .bar:nth-child(2) {
