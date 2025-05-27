@@ -255,13 +255,13 @@ h6 {
 .hero-logo {
   display: flex;
   justify-content: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   opacity: 0;
   animation: fadeInUp 0.8s ease-out 0.1s forwards;
 }
 
 .hero-logo-image {
-  width: 140px;
+  width: 280px;
   height: auto;
   filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
   transition: transform 0.3s ease;
@@ -272,7 +272,7 @@ h6 {
 }
 
 .hero-title {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 1rem;
   line-height: 1.1;
@@ -303,7 +303,7 @@ h6 {
 }
 
 .hero-subtitle {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 1.5rem;
   opacity: 0;
   animation: fadeInUp 0.8s ease-out 0.9s forwards;
@@ -334,14 +334,14 @@ h6 {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   opacity: 0.9;
   white-space: nowrap;
 }
 
 .feature-item i {
   color: #fbbf24;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .hero-image {
@@ -1287,11 +1287,11 @@ h6 {
   }
 
   .hero-logo-image {
-    width: 90px !important;
+    width: 200px !important;
   }
 
   .hero-title {
-    font-size: 1.8rem !important;
+    font-size: 1.9rem !important;
     margin-bottom: 0.75rem !important;
   }
 
@@ -1320,7 +1320,7 @@ h6 {
   }
 
   .feature-item {
-    font-size: 0.8rem !important;
+    font-size: 0.75rem !important;
     display: flex !important;
     align-items: center !important;
     gap: 6px !important;
@@ -1361,7 +1361,7 @@ h6 {
   }
 
   .hero-logo-image {
-    width: 90px !important;
+    width: 160px !important;
   }
 
   .hero-title {
@@ -1371,7 +1371,7 @@ h6 {
   }
 
   .hero-subtitle {
-    font-size: 0.9rem !important;
+    font-size: 0.85rem !important;
     margin-bottom: 0.75rem !important;
     padding: 0 15px !important;
   }
@@ -1388,6 +1388,10 @@ h6 {
     gap: 0.5rem !important;
     align-items: center !important;
     margin-bottom: 0.25rem !important;
+  }
+
+  .feature-item {
+    font-size: 0.7rem !important;
   }
 
   .truck-image {
